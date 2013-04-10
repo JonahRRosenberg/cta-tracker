@@ -1,1 +1,1 @@
-web: gunicorn cta_service:app
+web: cta_service:app
