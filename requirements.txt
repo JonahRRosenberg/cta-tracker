@@ -1,0 +1,7 @@
+bottle==0.11.6
+elementtree==1.2.7-20070827-preview
+httplib2==0.7.7
+logging==0.4.9.6
+python-dateutil==2.1
+six==1.2.0
+virtualenv==1.9.1
