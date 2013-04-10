@@ -1,4 +1,6 @@
 *.py[cod]
+venv
+*.pyc
 *.log
 *.csv
 *.xlsx
