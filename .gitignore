@@ -4,6 +4,7 @@ venv
 *.log
 *.csv
 *.xlsx
+*.txt
 
 # C extensions
 *.so
