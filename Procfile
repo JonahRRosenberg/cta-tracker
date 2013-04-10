@@ -1,1 +1,1 @@
-web: cta_service:app
+web: python cta_service:app
