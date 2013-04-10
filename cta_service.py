@@ -15,15 +15,7 @@ def run_app():
       
 logger.initialize()
 
-#cta_source = CTASource()
-#client = CTAClient(cta_source)
-  
+cta_source = CTASource()
+client = CTAClient(cta_source)
+
 run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)), debug=True)
-  
-#try:
-#except KeyboardInterrupt:
-#  logger.info('^C Received. Shutting Down Server.')
-#except Exception as ex:
-#  logger.error('Exception occurred. ex: ' + str(ex))
-#except:
-#  logger.error('Unknown Exception occurred')

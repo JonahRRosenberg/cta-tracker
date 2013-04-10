@@ -40,9 +40,9 @@ class CTAClient:
     self.trains = dict()
     self.__starting_station = self.stations[0]
     
-    #refresh_thread = Thread(target = self.__refresh_trains)
-    #refresh_thread.daemon = True
-    #refresh_thread.start()
+    refresh_thread = Thread(target = self.__refresh_trains)
+    refresh_thread.daemon = True
+    refresh_thread.start()
     
   def get_current_time(self):
     utc = datetime.utcnow().replace(tzinfo=from_zone)
